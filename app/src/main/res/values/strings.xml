@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">my_first_java_for_android</string>
+    <string name="hello">Hello</string>
+    <string name="pick_image">Pick image</string>
+    <string name="lisence">This is our lisence agreement: You can share this app anywhere that you want and use it however you want. Just remember to enjoy</string>
+    <string-array name="country">
+        <item>USA</item>
+        <item>Egypt</item>
+        <item>Greece</item>
+        <item>France</item>
+        <item>Japan</item>
+    </string-array>
+</resources>
