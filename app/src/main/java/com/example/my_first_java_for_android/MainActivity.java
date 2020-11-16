@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 String password = ed_password.getText().toString();
                 String rePassword = ed_rePassword.getText().toString();
 
-                if (name.isEmpty() && email.isEmpty() && password.isEmpty() && rePassword.isEmpty() || !agree.isChecked()) { // .matches("")
+                if (name.isEmpty() || email.isEmpty() || password.isEmpty() || rePassword.isEmpty() || !agree.isChecked()) { // .matches("")
                     Toast.makeText(MainActivity.this, "Wrong", Toast.LENGTH_SHORT).show();
                 } else {
                     Toast.makeText(MainActivity.this, "Right", Toast.LENGTH_SHORT).show();
